@@ -7,7 +7,7 @@ let secondValue = '';
 let operatorValue = '';
 let sum = '';
 
-const operators = ['+','-','x','÷','='];
+const operators = ['+','-','*','/','='];
 const numValues = ['0','1','2','3','4','5','6','7','8','9'];
 
 //make keys clickable and add entered value to output
@@ -110,9 +110,9 @@ function operate(oper, num1, num2) {
         return add(num1, num2);
     }else if(oper === '-') {
         return substract(num1, num2);
-    }else if(oper === 'x') {
+    }else if(oper === '*') {
         return multiply(num1, num2);
-    }else if(oper === '÷') {
+    }else if(oper === '/') {
         return divide(num1, num2);
     }else {
         //return nothing
