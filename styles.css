@@ -1,25 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap');
+
 body {
-    color: black;
-    margin: 0 auto;
+    color: #000000;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Orbitron', Courier, monospace;
+    flex-direction: column;
 }
 
 #wrapper {
     width: 350px;
-    background-color: antiquewhite;
-    padding: 20px;
+    background-color: #03043d;
+    padding: 25px;
     margin: 20px;
     border-radius: 3px;
+    border: 5px solid #020327;
 }
 
 .output {
-    background-color: aquamarine;
+    background-color: #cbfdf5;
     padding: 10px;
     margin-bottom: 10px;
     font-size: 3.5rem;
     border-radius: 3px;
+    text-align: right;
 }
 
 .keys {
@@ -27,29 +32,37 @@ body {
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 5px;
-    
 }
 
 button {
     padding: 20px;
-    background-color: aquamarine;
     font-size: 2.5rem;
-    border-radius: 3px;
+    border-radius: 5px;
     min-width: 80px;
+    border: 3px solid #017562;
+    background-color: #3cf7d8;
+    font-family: 'Orbitron', Courier, monospace;
 }
 
 button:hover {
     cursor: pointer;
+    background-color: #06c0a1;
 }
 
 button.btn-l {
     min-width: 170px;
 }
 
-button.btn-m {
-    min-width: 80px;
-}
-
 button.btn-xl {
     min-width: 260px;
+}
+
+footer a{
+    text-align: center;
+    color: #03043d;
+    font-size: 0.9rem;
+}
+
+footer a:hover {
+    color: #028670;
 }
