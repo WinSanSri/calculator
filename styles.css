@@ -1,0 +1,55 @@
+body {
+    color: black;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#wrapper {
+    width: 350px;
+    background-color: antiquewhite;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 3px;
+}
+
+.output {
+    background-color: aquamarine;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 3.5rem;
+    border-radius: 3px;
+}
+
+.keys {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 5px;
+    
+}
+
+button {
+    padding: 20px;
+    background-color: aquamarine;
+    font-size: 2.5rem;
+    border-radius: 3px;
+    min-width: 80px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button.btn-l {
+    min-width: 170px;
+}
+
+button.btn-m {
+    min-width: 80px;
+}
+
+button.btn-xl {
+    min-width: 260px;
+}
